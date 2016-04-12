@@ -18,7 +18,7 @@ public class SimpleDraw extends JPanel implements Runnable {
     private final int FRAME_DELAY = 50; // 50 ms = 20 FPS
     public static final int WIDTH = 300;
     public static final int HEIGHT = 300;
-    private DrawGraphics draw;
+    public DrawGraphics draw;
 
     
     public SimpleDraw(DrawGraphics drawer) {
